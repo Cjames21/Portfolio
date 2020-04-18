@@ -1,0 +1,37 @@
+$text-color: #f9f9f9;
+
+.top-bar-main {
+    height: fit-content;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: $text-color;
+
+    .top-bar-left {
+        width: 45vw;
+        display: inline-block;
+        position: relative;
+
+        h3 {
+            width: fit-content;
+        }
+    }
+
+    .top-bar-right {
+        width: 45vw;
+        display: inline-block;
+        position: relative;
+
+        nav {
+            width: fit-content;
+            height: fit-content;
+            float: right;
+
+            a {
+                color: $text-color;
+                text-decoration: none;
+                padding: 40px;
+            }
+        }
+    }
+}
